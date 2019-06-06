@@ -1,0 +1,17 @@
+{
+  "name": "hamrodoctor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development nodemon index.js",
+    "production": "cross-env NODE_ENV=production nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "dotenv": "^6.0.0"
+  }
+}
